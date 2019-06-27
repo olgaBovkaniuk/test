@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="PuurchaseOrder" type="PuurchaseOrderType"/>
+  <xs:complexType name="PuurchaseOrderType">
+    <xs:sequence>
+      <xs:element name="Item" type="ItemType" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="OrderDate" type="xs:string"/>
+  </xs:complexType>
+  <xs:complexType name="ItemType">
+    <xs:sequence>
+      <xs:element name="ProductName" type="xs:string"/>
+      <xs:element name="Quantity" type="xs:string"/>
+      <xs:element name="USPrice" type="xs:string"/>
+      <xs:element type="xs:string" name="Comment" minOccurs="0"/>
+      <xs:element type="xs:string" name="ShipDate" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="PartNumber" type="xs:string" use="optional"/>
+  </xs:complexType>
+</xs:schema>

@@ -1,0 +1,19 @@
+
+9
+	class.xml,2\2\226b0181b6dbe9ecdda2cef4a2bede9d7f2c1828
+b
+2src/com/gmail/aperavoznikau/sax/SaxParserDemo.java,6\4\640d9db19e931eaf2d7937a2d48a1e67b379af2c
+`
+0src/com/gmail/aperavoznikau/sax/UserHandler.java,3\a\3afee4e736a0c30a64dcd33d9a9fbdd210d1106b
+d
+4src/com/gmail/aperavoznikau/stax/StAXParserDemo.java,2\1\2154a3c19a82e55dd98b40399baa1bac575226c3
+c
+3src/com/gmail/aperavoznikau/jaxb/JAXBConverter.java,0\b\0b6e80ced42c42638a3f9c426d3e96429392d099
+8
+file.xml,9\5\95dd60a7d7072412e824fe4736a3d85e7f21e4df
+^
+.src/com/gmail/aperavoznikau/jaxb/Customer.java,f\4\f4d1aef9e576162dbcf79ed39172c516550b6897
+b
+2src/com/gmail/aperavoznikau/dom/DomParserDemo.java,c\4\c4529289639d1e495ce826bfba8415ca6a35aeac
+U
+%src/com/gmail/aperavoznikau/Main.java,f\a\fae8b19a6f3ab3caf2d1e4a85eb07281c3efedda
